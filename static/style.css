@@ -1,5 +1,10 @@
 body{
     background-color: #f5f5f5;
+    background-image: url('https://previews.123rf.com/images/peshkov/peshkov1609/peshkov160900181/63016958-3d-rendering-of-a-white-cctv-security-camera-on-abstract-city-background-with-copy-space.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .main{
@@ -11,6 +16,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;   
 }
 
 .nav-bar{
