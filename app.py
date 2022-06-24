@@ -15,7 +15,7 @@ def predict():
     if request.method == 'POST':
         data = request.get_json(force=True)
         print(data)
-        return jsonify({'result': 'succed'})
+        return jsonify({'result': 'success'})
     return render_template('main.html')
 
 
